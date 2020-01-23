@@ -21,6 +21,10 @@ body{
     background-color:  #DC3545;
 }
 
+.navbar-brand{
+    
+}
+
 /* REEL */
 
 .ejercicios{
@@ -28,18 +32,13 @@ body{
 }
 
 .card-header{
-    background-color: #232220;
+    background-color: #F23D3D;
     color: white;
 }
 
 /* REEL */
 
 
-
-.fondo__navbar{
-    background-color: #373A3C!important;
-    color: white;   
-}
 #navbarNav{
     color: white;
 }
@@ -171,5 +170,5 @@ a{
     color: white;
 }
 footer{
-    background-color: #F2B705;
+    background-color: #F23D3D;
 }
