@@ -1,6 +1,6 @@
 body{
     font-family: 'Cabin', sans-serif;
-    background-color: white;
+    background-color: #F23D3D;
     color: black;
 }
 
@@ -20,7 +20,7 @@ html {
     scroll-behavior: smooth;
   }
 
-  
+
 /* NAVBAR */
 .bg-light{
     color: white;
@@ -39,7 +39,7 @@ span.navbar-toggler-icon{
     color: black;
 }
 .card-header{
-    background-color: #F23D3D;
+    background-color:  #F2B705;
     color: white;
 }
 
@@ -77,7 +77,6 @@ h1{
     margin-top: 25px;
 }
 
-
 .titulo-receta{
     font-size: 40px;
     font-weight: 700;
@@ -103,86 +102,6 @@ h2{
     font-weight: 700;
 }
 
-.carousel-indicators{
-    bottom: -105px;
-}
-.carousel-indicators li{
-    background-color: #373A3C !important;
-    border-radius: 50%;
-    height: 13pt;
-    width: 13pt;
-    margin-bottom: 40px;
-}
-
-.container-fluid{
-    background-color: #DC3545;
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.ricomida-suscripcion{
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
-}
-
-.newsletter{
-    font-family: 'Cabin', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-}
-
-.texto-con-logo{
-    font-size: 30px;
-}
-
-div .texto-con-logo,.ricomida-suscripcion{
-    display: inline block;
-}
-
-.titulo__relacionadas{
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.mt-5{
-    padding-bottom: 35px;
-}
-
-footer{
-    font-family: 'Lobster', cursive;
-    font-size: 37px;
-    text-align: center;
-    background-color: #373A3C;
-    color: white;
-    margin-bottom: 0em;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-div .texto-con-logo, h3{
-    display: inline-block;
-}
-
-.typeform-widget{
-    margin-bottom: 0em;
-}
-
-.ml-auto{
-    color: white;
-}
-
-.ancho{
-    width: 70%;
-}
-
-.subrayado{
-    width: 100%;
-    
-}
-
 /* FOOTER RRSS */
 
 a{
@@ -190,4 +109,13 @@ a{
 }
 footer{
     background-color: #F23D3D;
+}
+footer{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0em;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
