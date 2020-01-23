@@ -16,19 +16,28 @@ body{
 @media (min-width: 1200px){
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+  
 /* NAVBAR */
 .bg-light{
-    background-color:  #DC3545;
+    color: white;
 }
-
-
-
+span.navbar-toggler-icon{
+    color: white;
+    
+}
 /* REEL */
 
 .ejercicios{
     margin: 10px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    color: black;
+}
 .card-header{
     background-color: #F23D3D;
     color: white;
@@ -37,9 +46,21 @@ body{
 /* REEL */
 
 
-#navbarNav{
-    color: white;
+/*PERFIL*/
+
+.container-fluid{
+    background-image: url('/assets/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 500px;
+    
 }
+
+/*PERFIL*/
+
+
+
 
 h1{
     font-size: 37px;
