@@ -1,0 +1,145 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+@media (min-width: 576px){
+}
+
+@media (min-width: 768px){
+}
+
+@media (min-width: 992px){
+}
+
+@media (min-width: 1200px){
+}
+
+
+.fondo__navbar{
+    background-color: #373A3C!important;
+    color: white;   
+}
+#navbarNav{
+    color: white;
+}
+
+h1{
+    font-size: 37px;
+}
+
+.ricomida{
+    font-family: 'Lobster', cursive;
+}
+.botones{
+    color: white;
+}
+
+.pizza-estilo{
+    margin-top: 25px;
+}
+
+
+.titulo-receta{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.bajada-ins{
+    font-size: 20px;
+}
+
+.boton-compartir{
+    text-align: left;
+}
+
+.titulo-secundario{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.carousel-indicators{
+    bottom: -105px;
+}
+.carousel-indicators li{
+    background-color: #373A3C !important;
+    border-radius: 50%;
+    height: 13pt;
+    width: 13pt;
+    margin-bottom: 40px;
+}
+
+.container-fluid{
+    background-color: #DC3545;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ricomida-suscripcion{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.newsletter{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.texto-con-logo{
+    font-size: 30px;
+}
+
+div .texto-con-logo,.ricomida-suscripcion{
+    display: inline block;
+}
+
+.titulo__relacionadas{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.mt-5{
+    padding-bottom: 35px;
+}
+
+footer{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    text-align: center;
+    background-color: #373A3C;
+    color: white;
+    margin-bottom: 0em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div .texto-con-logo, h3{
+    display: inline-block;
+}
+
+.typeform-widget{
+    margin-bottom: 0em;
+}
+
+.ml-auto{
+    color: white;
+}
+
+.ancho{
+    width: 70%;
+}
+
+.subrayado{
+    width: 100%;
+    
+}
