@@ -1,0 +1,72 @@
+.fondo__navbar{
+    background-color: #e83e8c !important;
+    margin-right: 0;
+    margin-bottom: 20px; 
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+}
+.titulo-nuestros-productos{
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+@media (min-width: 576px){}
+@media (min-width: 768px){}
+@media (min-width: 992px){}
+@media (min-width: 1200px){}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.div-rojo{
+    background-color:white;
+    height: 530px;
+}
+.div-azul{
+    background-color: white;
+    height: 530px;
+}
+.div-verde{
+    background-color:white;
+    height: 530px;
+}
+.logo__nav{
+    height: 40px;
+    vertical-align: middle;
+    }
+footer{
+    background-color:  #e83e8c;
+    padding: 30px;
+    text-align: center;
+}
+.medios-de-pago{
+    background-color: #17a2b8 ;
+    padding: 50px;
+    margin-right: 0;
+}
+.logo-footer{
+    height: 80px;
+}
+.medios-de-pago{
+    color: white;
+    margin-top: 50px;
+}
+.titulo-col{
+    font-weight: 800;
+}
+.titulo-medios{
+    font-weight: 700;
+}
+
+.medios-de-pago{
+    text-align: center
+}
+

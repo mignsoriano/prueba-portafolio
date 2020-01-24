@@ -1,0 +1,160 @@
+
+nav .iguana{
+    background: black;
+    color: white; 
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero__section {
+    background-image: url('/iguana/assets/img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 800px;
+    padding: 3.125rem 3.125rem;
+    text-align: right;
+}
+
+header h1, header h2 {
+    color: rgba(255, 255, 255, 100%)
+}
+
+body {
+    background: black;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sweet-brown{
+    text-align: left;
+    padding: 50px;
+    background: #a4452c;
+    color: #ffffff;
+    white-space: nowrap;
+} 
+.iguana_verde, .parrafo{
+    color: #FFFFFF;
+    display: inline-block;
+}
+.parrafo {
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px; 
+    font: 1rem;
+    vertical-align: left;
+    font-weight: 100;
+    margin-right: 30px; 
+}
+
+.iguana_verde{
+    vertical-align: right;
+    width: 399px;
+    height: 237px;
+    top: 845px;
+    left: 731px;
+    margin-top: 20px;
+}
+
+#texto-iguana{
+    text-align: center;
+}
+.centrado{
+    margin: 0 0
+}
+.iguana-comple{
+    width: 100px;
+}
+footer{
+    margin: 50px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer i{
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+aside div{
+    display: inline-block;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+aside{
+    text-align: center;
+    background-color: #1e1a13;
+    color: white;
+}
+.titulo__simposio{
+    color: black;
+    text-align: center;
+}
+.gregorio{
+    text-align: center;
+}
+#contacto{
+    margin-bottom: 0;
+}
+.body{
+    margin-right: 0;
+}
+aside .simposio-vegan,.machine-learning,.scrum-sinscream{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.titulo-carac{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+aside div h3{
+    font-weight: 100;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.descripcion{
+    display: inline-block;
+}
+.oscuro{
+    background:#1e1a13;
+    color: white; 
+    padding: 0x 0px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 100;
+}
+
+#contenedor_principal{
+    width:auto;
+    height:auto;
+    position:relative;
+    margin top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}    
+.contenedor_imagen_texto{
+    width:500px;
+    height:300px;
+    display: inline-block;
+    vertical-align:top;
+    overflow: hidden;
+    margin-top: 25px ;
+    justify-content: center;
+    }

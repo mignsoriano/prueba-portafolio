@@ -1,0 +1,100 @@
+.fondo__navbar{
+    background-color:#28A745!important;
+}
+.divmedia{
+    background-color: hotpink;
+    height: 500px;
+    width: 100%;
+    }   
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+}
+
+.div-rojo{
+    background-color:white;
+    height: 460px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-azul{
+    background:white;
+    height: 460px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-verde{
+    background-color: white;
+    height: 460px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pixel-logo{
+    width: 110px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+}
+
+#precio-color{
+    color: green;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+section form{
+   background-color:#28A745; 
+   padding: 20px;
+   text-align: center;
+}
+
+.btn-primary {
+    color: black;
+background-color:
+white;
+border-color:
+    white;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+footer h2{
+    color: #707070;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer .logo-cuppon{
+    width: 100px;
+    margin-top: 30px;
+}
