@@ -9,7 +9,7 @@ nav .iguana{
     margin-bottom: 10px;
 }
 .hero__section {
-    background-image: url('/iguana/assets/img/bg-header.jpg');
+    background-image: url('/assets/img/bg-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -144,7 +144,6 @@ body{
 #contenedor_principal{
     width:auto;
     height:auto;
-    position:relative;
     margin top: 50px;
     margin-bottom: 20px;
     margin-left: 50px;

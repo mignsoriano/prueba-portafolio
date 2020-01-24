@@ -16,6 +16,13 @@
 </head>
 
 <body>
+<!-- Boton hacia arriba -->
+<a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+  <span class="fa-stack">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+  </span>
+</a>
 
 <!--NAVBAR-->
   
@@ -55,7 +62,7 @@
               </div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                  <a target="_blank" href="trabajos/primer-desafio/Index.html>"><img src="assets/img/ejercicio-uno.jpg" class="w-100" alt=""></a>
+                  <a target="_blank" href="/trabajos/primer-desafio/Index.html"><img src="assets/img/ejercicio-uno.jpg" class="w-100" alt=""></a>
                 </blockquote>
               </div>
             </div></div>
@@ -69,7 +76,7 @@
               </div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                  <img src="assets/img/ejercicio-dos.jpg" class="w-100" alt="">
+                  <a target="_blank" href="/trabajos/iguana/Index.html"><img src="assets/img/ejercicio-dos.jpg" class="w-100" alt=""></a>
                 </blockquote>
               </div>
           </div>
@@ -84,7 +91,7 @@
         </div>
         <div class="card-body">
           <blockquote class="blockquote mb-0">
-            <img src="assets/img/ejercicio-tres.jpg" class="w-100" alt="">
+            <a target="_blank" href="/trabajos/suricata/index.html"><img src="assets/img/ejercicio-tres.jpg" class="w-100" alt=""></a>
           </blockquote>
         </div>
     </div>
@@ -99,7 +106,7 @@
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <img src="assets/img/ejercicio-cuatro.jpg" class="w-100" alt="">
+           <a target="_blank" href="/trabajos/Cuppon/index.html"><img src="assets/img/ejercicio-cuatro.jpg" class="w-100" alt=""></a>
         </blockquote>
       </div>
   </div>
@@ -238,8 +245,9 @@
             Matias Soriano estuvo a cargo de la dirección del documental
             que aborda el impacto del VIH en los pueblos indigenas.
           <div style="display: inline-block; text-align: center;">
-            <a href="https://www.cnnchile.com/cultura/video-hilo-rojo-vih-pueblos-indigenas_20191128/"><img src="assets/img/Cnn_logo_red_background.png" style="width: 80px; margin-top: 10px;"></a>
-            <a href="http://lafkenkurruf.com/2019/11/25/estreno-documental-hilo-rojo-el-vih-desde-los-pueblos-indigenas/"><img src="assets/img/descarga.jpg" style="width: 80px; margin-top: 10px;"></a>
+            <a target="_blank"  href="https://www.cnnchile.com/cultura/video-hilo-rojo-vih-pueblos-indigenas_20191128/"><img src="assets/img/Cnn_logo_red_background.png" style="width: 80px; margin-top: 10px;"></a>
+            <a target="_blank"  href="http://lafkenkurruf.com/2019/11/25/estreno-documental-hilo-rojo-el-vih-desde-los-pueblos-indigenas/"><img src="assets/img/descarga.jpg" style="width: 80px; margin-top: 10px;"></a>
+            <a target="_blank" href="https://ondamedia.cl/#/player/hilo-rojo-1" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="margin-top: 10px; background-color: red; color: white; border: none;">Ver Online</a>
           </div>
           </div>
         </div>
@@ -324,6 +332,17 @@
     $('[data-toggle="tooltip"]').tooltip()
    })
 </script>
-<script></script>
+<script>
+$(document).ready(function(){ //Hacia arriba
+  irArriba();
+});
+
+function irArriba(){
+  $('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 0){ $('.ir-arriba').slideDown(600); }else{ $('.ir-arriba').slideUp(600); }
+  });
+  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
+}</script>
 </body>
 </html>
