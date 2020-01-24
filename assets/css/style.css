@@ -27,8 +27,8 @@ html {
 }
 span.navbar-toggler-icon{
     color: white;
-    
 }
+
 /* REEL */
 
 .ejercicios{
@@ -49,17 +49,11 @@ span.navbar-toggler-icon{
 /*PERFIL*/
 
 .container-fluid{
-    background-image: url('/assets/img/fondo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    height: 500px;
-    
+    background-color: white;
+
 }
 
 /*PERFIL*/
-
-
 
 
 h1{

@@ -19,22 +19,23 @@
 
 <!--NAVBAR-->
   
-<nav class="navbar navbar-expand-lg" style="background-color: #F23D3D; margin-bottom: 0em;">
+<nav class="navbar navbar-expand-lg" style="background-color: #F23D3D; margin-bottom: 0em;" id="inicio">
   <div class="container">
-  <a class="navbar-brand" href="#" style="font-family: 'Russo One', sans-serif; font-size: 40px;">MS</a>
+  <a class="navbar-brand" href="#inicio" style="font-family: 'Russo One', sans-serif; font-size: 40px;">MS</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
-    <span class="navbar-toggler-icon" style="color: #F23D3D; "></span>
+    <i class="fas fa-bars" style="color: #F23D3D;"></i>
+    <!--<span class="navbar-toggler-icon" style="color: white;"></span>-->
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#reel" style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;">Reel <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#reel" style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;"><i class="fas fa-images"></i> REEL <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#perfil" style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;">Perfil</a>
+        <a class="nav-link" href="#perfil" style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;"> <i class="fas fa-user-circle"></i> PERFIL</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contacto" style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;">Contacto</a>
+        <a class="nav-link" href="#contacto" style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;"> <i class="fas fa-envelope"></i> CONTACTO</a>
       </li>
     </ul>
     </div>
@@ -42,7 +43,7 @@
 </nav>
 
 <!--REEL-->
-<section class="carrusel mt-5" id="reel" style="background-color:#F23D3D; margin-top: 0em;">
+<section class="carrusel mt-5" id="reel" style="background-color:#F23D3D; margin-top: 0em; margin-bottom: 20px;">
   <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -136,54 +137,106 @@
 <!--
 <section class="container-fluid">
 </section>-->
+<div class="container-fluid" style="padding-bottom: 20px; padding-top: 20px;">
+  <div class="container" id="perfil">
+    <div class="row">
+      <div class="col-sm">
+        <img src="assets/img/IMG_7860.JPG" alt="">
+      </div>
+      <div class="col-sm" style="text-align: center; margin-left: 5px; background-color: #F2B705; margin-right: 5px; margin-top: 10px;">
+        <h2 style="font-family:'Russo One', sans-serif; font-size: 40px; color: white; margin-top: 10px;">PERFIL</h2>
+        <h1 style="font-family:'Russo One', sans-serif; font-size: 150px; color: white;">MS</h1>
+        <h2 style="font-family:'Russo One', sans-serif; font-size: 40px; color: white;">Matias Soriano</h2>
+      </div>
+      <div class="col-sm">
+        <img src="assets/img/IMG_7862.jpg" alt="">
+      </div>
+    </div>
+  </div>
 
-<div class="container" id="perfil">
-  <div class="row">
-    <div class="col-sm">
-      <img src="assets/img/unnamed (1).jpg" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col" style="background-color:#F2B705;">
+      <h1 style="font-family: 'Russo One', sans-serif; color: white; margin-top: 10px; margin-bottom:;">Descripción</h1>
+      <p style="color: black; font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ipsa voluptatibus? Deserunt fugiat, voluptatibus accusantium blanditiis maiores doloremque tempore aperiam, beatae, architecto aliquam similique animi accusamus tempora asperiores quos magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorum, pariatur ex dolores nihil expedita quo. Fugiat, et distinctio! Omnis eaque sint at minima ex, asperiores mollitia ullam unde! Iure.</p>
+      </div>
+      <div class="col">
+      <img src="assets/img/IMG_7858.jpg" alt="">
     </div>
-    <div class="col-sm" style="text-align: center; margin-left: 5px; background-color: #F2B705; margin-right: 5px;">
-      <h2 style="font-family:'Russo One', sans-serif; font-size: 40px; color: white; margin-top: 10px;">PERFIL</h2>
-      <h1 style="font-family:'Russo One', sans-serif; font-size: 150px; color: white;">MS</h1>
-      <h2 style="font-family:'Russo One', sans-serif; font-size: 40px; color: white;">Matias Soriano</h2>
+      <div class="col" style="background-color:#F2B705; margin-bottom: 20px; padding-bottom: 10px;">
+        <h1 style="font-family: 'Russo One', sans-serif; color: white; margin-top: 10px;">Habilidades</h1>
+        <p style="color: black; font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ipsa voluptatibus? Deserunt fugiat, voluptatibus accusantium blanditiis maiores doloremque tempore aperiam, beatae, architecto aliquam similique animi accusamus tempora asperiores quos magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorum, pariatur ex dolores nihil expedita quo. Fugiat, et distinctio! Omnis eaque sint at minima ex, asperiores mollitia ullam unde! Iure.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="background-color: white; color: black; font-family:'Russo One', sans-serif; border: none; text-align: center;" >
+          Dominio de softwares
+        </button>
+      </div>
     </div>
-    <div class="col-sm">
-      <img src="assets/img/IMG_7862.jpg" alt="">
+</div>
+</div>
+
+<!--EXPERIENCIA-->
+<div class="container-fluid" style="background-color: #F2B705; padding-top: 20px; padding-bottom: 20px;">
+  <div class="container" style="text-align: center;">
+    <div class="row">
+      <div class="col-sm">
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" style="background-color: #F2B705;; border: none;">
+            <img src="assets/img/uniacc.png" alt="" class="w-100"><i class="fas fa-chevron-down fa-2x" style="color: black;"></i>
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample1">
+          <div class="card card-body" style="font-family: 'Archivo', sans-serif; color: black; margin-top: 10px; text-align: center;">
+            <h2 style="font-family: 'Russo One', sans-serif;">2013-2018</h2>
+           <p>Licenciado en Comunicación Audiovisual: Especialidad en Televisión.</p>
+           
+           <p>Diplomado en Desarrollo de Guión y Postproducción Cinematográfica en After Effects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" style="background-color: #F2B705;; border: none;">
+            <img src="assets/img/logo-fen-300x173.png" alt="" class="w-100"><i class="fas fa-chevron-down fa-2x" style="color: black;"></i>
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample2">
+          <div class="card card-body"  style="font-family: 'Archivo', sans-serif; color: black; margin-top: 10px; text-align: center;">
+            <h2 style="font-family: 'Russo One', sans-serif;">2019</h2>
+            Diplomado en Marketing Digital Aplicado
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" style="background-color: #F2B705; border: none;">
+            <img src="assets/img/desafio-latam-slogan-fondo-blanco-739x347.png" alt="" class="w-100"><i class="fas fa-chevron-down fa-2x" style="color: black;"></i>
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample3">
+          <div class="card card-body"  style="font-family: 'Archivo', sans-serif; color: black; margin-top: 10px; text-align: center;">
+            <h2 style="font-family: 'Russo One', sans-serif;">2020</h2>
+            Diseño UX/UI
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<hr class="ancho" style="border-color: black;">
-
-<div class="container">
-  <div class="row">
-    <div class="col" style="background-color:#F2B705;">
-    <h1 style="font-family: 'Russo One', sans-serif; color: white; margin-top: 10px;">Descripción</h1>
-    <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ipsa voluptatibus? Deserunt fugiat, voluptatibus accusantium blanditiis maiores doloremque tempore aperiam, beatae, architecto aliquam similique animi accusamus tempora asperiores quos magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorum, pariatur ex dolores nihil expedita quo. Fugiat, et distinctio! Omnis eaque sint at minima ex, asperiores mollitia ullam unde! Iure.</p>
-    </div>
-    <div class="col">
-    <img src="assets/img/unnamed (3).jpg" alt="">
-   </div>
-    <div class="col" style="background-color:#F2B705;">
-      <h1 style="font-family: 'Russo One', sans-serif; color: white; margin-top: 10px;">Habilidades</h1>
-      <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ipsa voluptatibus? Deserunt fugiat, voluptatibus accusantium blanditiis maiores doloremque tempore aperiam, beatae, architecto aliquam similique animi accusamus tempora asperiores quos magni? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorum, pariatur ex dolores nihil expedita quo. Fugiat, et distinctio! Omnis eaque sint at minima ex, asperiores mollitia ullam unde! Iure.</p>
-    </div>
-  </div>
-</div>
-
 
 <!--SERVICIOS Y FORMULARIOS-->
-<div class="container" style="margin-bottom: 20px; margin-top: 20px;" id="contacto">
+<div class="container" style="margin-bottom: 20px;" id="contacto">
   <div class="row">
     <div class="col">
-      <h1 style="text-align: left; font-family: 'Russo One', sans-serif; padding-top: 70px;">Nuestros servicios</h1>
+      <h1 style="text-align: left; font-family: 'Russo One', sans-serif; padding-top: 70px; color: white;">Nuestros servicios</h1>
       <hr>
-      <p style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;"><i class="fas fa-desktop fa-1x" style="margin: 7px; color:#F28322; text-align: center;"></i>Diseño y creación de tu sitio web</p>
+      <p style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600; color: white;"><i class="fas fa-desktop fa-1x" style="margin: 7px; color: white; text-align: center;"></i>Diseño y creación de tu sitio web</p>
       <hr>
-      <p style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;"><i class="fas fa-mobile-alt fa-1x" style="margin: 7px; color: #F28322; text-align: center;"></i>Diseño y creación de tu aplicación</p>
+      <p style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600; color: white;"><i class="fas fa-mobile-alt fa-1x" style="margin: 7px; color: white; text-align: center;"></i>Diseño y creación de tu aplicación</p>
       <hr>
-      <p style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600;"><i class="fas fa-hashtag fa-1x" style="margin: 7px; color: #F28322; text-align: center;"></i>Estrategia de Marketing Digital</p>
+      <p style="font-family: 'Archivo', sans-serif; font-size: 20px; font-weight: 600; color:white;"><i class="fas fa-hashtag fa-1x" style="margin: 7px; color: white; text-align: center;"></i>Estrategia de Marketing Digital</p>
       <hr>
-      <h1 style="text-align: left; font-family: 'Russo One', sans-serif; font-size: 40px; margin-bottom: 20px;">¡Presiona comenzar y envianos tu propuesta!</h1>
+      <h1 style="text-align: left; font-family: 'Russo One', sans-serif; font-size: 40px; margin-bottom: 20px; color: white;">¡Presiona comenzar y envianos tu propuesta!</h1>
     </div>
     <div class="col">
       <div class="typeform-widget" data-url="https://ignacioarevalo.typeform.com/to/o4MGo7" style="width: 350px; height: 500px; padding: left 0 px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"></a> </div>
@@ -199,6 +252,37 @@
         <a href="https://behance.com"><i class="fab fa-behance fa-1x"></i></a>
         <a href=""><i class="far fa-envelope fa-1x"></i></a>
 </footer>
+
+<!-- Modal Experiencia -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-family: 'Russo One', sans-serif;"> <i class="fas fa-angle-double-right fa-1x"></i>Softwares</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p style="color: black; font-family: 'Russo One', sans-serif; font-size: 20px;"><i class="fab fa-adobe fa-1x" style=""></i> SUITE ADOBE</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif;"><i class="fas fa-pencil-ruler fa-1x"></i>  ADOBE ILLUSTRATOR</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif;"><i class="fas fa-pencil-ruler fa-1x"></i>  ADOBE PHOTOSHOP</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif;"><i class="fas fa-film fa-1x"></i>  ADOBE PREMIERE</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif;"><i class="fas fa-meteor fa-1x"></i>  ADOBE AFTER EFFECTS</p>
+
+       <p style="color: black; font-family: 'Russo One', sans-serif; font-size: 20px;"><i class="fab fa-google fa-1x"></i></i>  GOOGLE ANALYTICS</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif; font-size: 20px;"><i class="fas fa-mobile-alt fa-1x"></i>  MARVEL APP</p>  
+       <p style="color: black; font-family: 'Russo One', sans-serif; font-size: 20px;"><i class="fab fa-microsoft fa-1x"></i>  MICROSOFT OFFICE</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif; font-size: 20px;"><i class="fas fa-code fa-1x"></i>  HTML</p>
+       <p style="color: black; font-family: 'Russo One', sans-serif; font-size: 20px;"><i class="fas fa-code fa-1x"></i>  CSS</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
  <!--js js js js-->
  <script
